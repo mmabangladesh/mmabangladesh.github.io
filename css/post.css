@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #efefef;
+}
+h1,span,.bd {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #666;
+}
+
+.bd {
+    font-weight: 800;
+    color: #87b672;
+    text-transform: uppercase;
+}
+
+.dot {
+    font-weight: 800;
+    color: #ff1067;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: #ff1057;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    transition: linear .5s;
+    text-transform: uppercase;
+}
+.btn:hover{
+    letter-spacing: 5px;
+}
+h4{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.post-img, .img-fluid{
+    max-width: 77%;
+}
+.news-section p{
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+footer p {
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #666;
+}
+footer span{
+    color: #87b672;
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer small {
+    color: #efefef;
+    text-align: right;
+    text-transform: uppercase;
+    color: #666;
+}
+
+footer small a {
+    color: #87b672;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer small a:hover {
+    color: #ff1067;
+}
+
+
+@media (max-width: 575.98px) {
+h1,span,.dot,.bd{
+    font-size: 25px;
+}
+h4{
+    font-size: 1em;
+    padding: 5px;
+}
+.news-section p{
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
+footer span{
+color: #87b672;
+font-size: 14px;
+}
+footer small{
+    text-align: center;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}

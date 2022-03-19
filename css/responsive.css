@@ -1,0 +1,248 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #banner h1{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+    }
+    #banner .bd{
+        font-size: 20px;
+    }
+    #banner .dot{
+        font-size: 20px;
+    }
+    #banner a{
+        font-size: 9px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 3px 0;
+        padding-left: 2px;
+        margin: 0;
+        letter-spacing: 1px;
+        
+    }
+    #banner a:hover{
+        letter-spacing: 2px;
+    }
+    .logo{
+        width: 80px;
+    height: 35px;
+    } 
+
+    .navbar-light .navbar-nav .active>.nav-link,.navbar .nav-item .nav-link {
+        font-size: 13px;
+    }
+    #about{
+        padding-top: 50px;
+        padding-bottom: 45px;
+
+    }
+    #about .content{
+        padding-top: 20px;
+    }
+    #about p{
+        padding-top: 0;
+        font-size: 15px;
+    }
+    #about a{
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    .section-header{
+        font-size: 23px;
+        padding: 0 12px;
+        padding-bottom: 10px;
+    }
+    .section-header::after{
+        width: 60px;
+    }
+    #news .news-header h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    #news .pink-button{
+        font-size: 12px;
+        padding: 8 10px;
+    }
+    
+    .card-title{
+        font-size: 17px;
+    }
+
+    #contact{
+        padding-top: 50px;
+    }
+    #contact p{
+        padding: 0 14px;
+        padding-top: 0;
+        font-size: 15px;
+    }
+    #contact .contact-info {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #contact .content h5{
+        font-size: 15px;
+    }
+    #contact ul li a{
+        font-size: 20px;
+        margin-left: 7px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 14px;
+    }
+    footer small{
+        text-align: center;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #banner h1{
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+    }
+    #banner .bd{
+        font-size: 25px;
+    }
+    #banner .dot{
+        font-size: 25px;
+    }
+    #banner a{
+        font-size: 13px;
+        position: absolute;
+        top: 2px;
+        right: 2px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link,.navbar .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .logo{
+        width: 80px;
+    height: 35px;
+    } 
+    #banner a{
+        font-size: 13px;
+        position: absolute;
+        top: 2px;
+        right: 0px;
+        padding: 3px 5px;
+        padding-left: 2px;
+        margin: 0;
+        letter-spacing: 2px;
+        
+    }
+    #banner a:hover{
+        letter-spacing: 4px;
+    }
+    .section-header{
+        font-size: 28px;
+    }
+    #about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #about .content {
+        padding-top: 35px;
+    }
+    #about a{
+        font-size: 16px;
+    }
+    #contact {
+        padding-top: 60px;
+    }
+    #contact .contact-info {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 16px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner h1{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        font-size: 28px;
+        margin: 0;
+        padding: 0;
+        line-height: 20px;
+    }
+    #banner .bd{
+        font-size: 28px;
+    }
+    #banner .dot{
+        font-size: 28px;
+    }
+    #banner a{
+        font-size: 15px;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        margin-right: 0;
+        padding: 5px 9px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link,.navbar .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+        width: 80px;
+        height: 35px;
+    }
+    #about {
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    #about .content {
+        padding-top: 0px;
+    }
+    .section-header{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    #about p{
+        margin: 0;
+        margin-top: 10px;
+    }
+    #contact {
+        padding-top: 50px;
+    }
+    #contact .content {
+        padding-bottom: 15px;
+    }
+    footer p{
+        font-size: 16px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
